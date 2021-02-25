@@ -1,0 +1,11 @@
+[Desktop Entry]
+X-DBUS-StartupType=None
+X-KDE-StartupNotify=false
+Version=1.0
+Terminal=false
+Type=Application
+Name=Weather Channel Stream
+Exec=mycroft-gui-app --hideTextInput --skill=twcstream.aiix.home
+Icon=skystream
+Categories=VoiceApp
+StartupNotify=false

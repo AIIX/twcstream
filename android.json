@@ -1,0 +1,5 @@
+{
+    "android_icon": "/res/icon/twcstream.png",
+    "android_name": "Weather Channel Stream",
+    "android_handler": "twcstream.aiix.home"
+}
