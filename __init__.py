@@ -36,7 +36,7 @@ class TWCStream(MycroftSkill):
         self.gui.clear()
         self.enclosure.display_manager.remove_active()
         # Get the URL of where the live stream is playing
-        set_url = "http://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8"
+        set_url = "https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8"
         # Sending the stream to my GUI, creating a sessionData object
         self.gui["videoState"] = "Play"
         self.gui["videoStream"] = set_url

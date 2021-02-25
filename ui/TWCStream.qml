@@ -91,7 +91,7 @@ Mycroft.Delegate {
             autoLoad: true
             fillMode: VideoOutput.PreserveAspectFit
             anchors.fill: parent
-            source: "http://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8"
+            source: "https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8"
             
             onStatusChanged: {
                 console.log(status)
